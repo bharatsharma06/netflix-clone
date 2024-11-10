@@ -1,0 +1,418 @@
+ 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+
+
+main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/85ff76db-39e5-423a-afbc-97d3e74db71b/null/IN-en-20240909-TRIFECTA-perspective_b22117e0-4610-4d57-a695-20f77d241a4a_large.jpg);
+    height: 99vh ;
+   
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(100vw,1000px);
+
+}
+
+main nav{
+    border: 2px white;
+    
+    height: 15vh;
+    width: 100vw;
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 62px;
+
+}
+
+
+nav img{
+
+    color: red;
+    width: 296px;
+    position: relative;
+    z-index: 10;
+}
+
+.flex button{
+    background-color:  rgb(23, 23, 23);
+    color: white;
+    margin: 10px;
+}
+
+.flex .box2{
+    background-color: red;
+    font-size:23px ;
+    padding: 0px 5px 0px 3px;
+    color: white ;
+    border: none;
+    height: 6vh;
+    width: 106px;
+    border-radius: 6px;
+    margin: 1px;
+}
+
+.flex .box1{
+    font-size: 19px;
+    border: solid white;
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 0px 30px 0px 3px;
+    text-align: center; 
+    width: 146px;
+    height: 6vh;
+}
+
+.let{
+    height: calc(100% - 100px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    padding: 2px;
+    text-align: center;
+   
+}
+
+.let .book1{
+    font-size:85px;
+    font-weight:  bolder;
+}
+
+.let .book2{
+    font-size:85px;
+    font-weight:  bolder;
+    
+}
+
+.let .book3{
+    font-size:32px;
+    margin-top: 28px;
+}
+
+.let .book4{
+    font-size:26px;
+    margin: 18px;
+}
+
+
+
+
+.data .adress{
+    background-color: rgb(23, 23, 23);
+    font-size: 16px;
+ padding: 19px 94px 13px 76px;
+ border-radius: 8px;
+ height: 7vh;
+    width: 27vw;
+
+
+}
+.data .login{
+    border: none;
+    color: whitesmoke;
+    background-color: red;
+    font-size: 26px;
+    padding:11px 28px 11px 28px;
+    border-radius: 8px ;
+   
+    height: 11vh;
+    width: 14vw;
+    cursor: pointer;
+}
+
+.data .login:hover{
+    background-color: rgb(136, 26, 26);
+    color: rgb(229, 232, 235);
+}
+
+.separation {
+   
+    height: 7px;
+    background-color:gray;
+    position: inherit;
+    z-index: 20;
+    box-shadow: 0px 18px 30px rgb(207, 195, 219);
+}
+  
+
+
+.look{
+    height: 300vh;
+   margin-top: 7px;
+   padding: 19px;
+   width: 96vw;
+    background-color: rgb(0, 0, 0);
+}
+
+.trending{
+    
+    height: 64vh;
+    
+    margin: 20px 71px 0px 90px ;
+
+}
+
+.content{
+    font-size: 37px;
+   
+   margin-top: 10px;
+   color: rgb(248, 245, 245);
+}
+
+.trending .movie{
+    margin: 15px 0px 0px 2px;
+   
+   
+    
+}
+
+.movie .btn{
+   
+    padding: 0px 64px 0px 9px;
+    width: 6vw;
+    height: 6vh;
+    font-size: 17px;
+    margin: 0px 19px 0px 0px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: rgb(23, 23, 23);
+    color: whitesmoke;
+    border:solid white 1px;
+  
+   
+
+}
+.movie .red{
+    width: 8vw;
+    
+    border:solid white 1px;
+  
+}
+/* transition */
+
+.look .image {
+    
+    margin: 15px 9px 0px 2px ;
+    height: 45vh;
+
+}
+
+.image .rebel{
+
+    margin: 10px 0px 0px 7px;
+    width: 14vw;
+    border-radius: 7px;
+}
+
+.image .gapp{
+    margin-left: 30px;
+}
+
+
+/* transition */
+
+
+.look .join{ 
+    height: 58vh;
+   
+    margin: 55px 0px 0px 0px;
+    font-size: 30px;
+}
+
+.more{
+    color: white;
+}
+
+
+.modify h5{
+    font-size: 39px;
+}
+
+.more .modify{
+    background-color: rgb(38, 30, 75);
+    height: 43vh;
+    width: 17vw;
+    margin: 11px 0px 0px 3px;
+    border-radius: 17px;
+    padding: 19px;
+    color: white;
+}
+
+.modify p{
+    margin-top: 18px;
+    font-size: 25px;
+}
+
+.flexing{
+    display: flex;
+    
+}
+.flexing .arrow{
+    margin-left: 15px;
+}
+
+.flexing .torch{
+    margin-left: 15px;
+}
+.flexing .sticker{
+    margin-left: 15px;
+}
+.free{
+    color: white;
+}
+
+.look .free{ 
+    height: 92vh;
+    width: 87vw;
+    border: 2px solid black;
+    margin: 85px 0px 0px 0px;
+    font-size: 35px;
+   
+}
+
+.free .what:hover{
+    color: rgb(224, 224, 224);
+    background-color: #363535;
+    
+}
+
+
+.free .what{
+    border: 2px solid gray;
+    height: 6vh;
+    width: 170vh;
+    padding: 26px;
+    margin: 15px 0px 0px 3px ;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.login2{
+    border: 2px solid black;
+
+    margin: 85px 0px 0px 0px ;
+    height: 18vh;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+}
+
+.data2 .adress2{
+    background-color: rgb(23, 23, 23);
+    font-size: 16px;
+ padding: 19px 94px 13px 76px;
+ border-radius: 8px;
+ height: 7vh;
+    width: 43vw;
+    margin: 22px 0px 0px 0px;
+
+}
+.data2 .login3{
+    border: none;
+    color: whitesmoke;
+    background-color: red;
+    font-size: 26px;
+    padding:11px 28px 11px 28px;
+    border-radius: 8px ;
+   
+    height: 11vh;
+    width: 14vw;
+    cursor: pointer;
+}
+
+.data2 .login3:hover{
+    background-color: rgb(136, 26, 26);
+    color: rgb(229, 232, 235);
+}
+
+footer{
+    border: 2px solid black;
+    height: 60vh;
+    margin-top: 60px;
+    
+}
+
+.help{
+    display: flex;
+}
+
+.ques{
+    font-size: 24px;
+    margin-top: 5px;
+    color: white;
+}
+
+.faqq{
+    margin: 30px 0px 0px 6px;
+    font-size: 23px;
+    
+   
+}
+
+.logo{
+    margin: 15px;
+    color: white;
+   
+}
+.logo a{
+    color: white;
+}
+
+.red{
+    margin: 30px 0px 0px 210px;
+    font-size: 23px;
+
+}
+
+.blue{
+    margin: 30px 0px 0px 210px;
+    font-size: 23px;
+
+
+}
+
+.green{
+    margin: 30px 0px 0px 210px;
+    font-size: 23px;
+    
+
+}
+
+
+footer button{
+    font-size: 19px;
+    border: solid white;
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 0px 30px 0px 3px;
+    text-align: center; 
+    width: 146px;
+    height: 6vh;
+    background-color:  rgb(23, 23, 23);
+    color: white;
+    margin: 40px 0px 0px 8px;
+    
+}
+
+footer .ind{
+    font-size: 20px;
+    margin: 45px 0px 0px 10px;
+    color: white;
+}
